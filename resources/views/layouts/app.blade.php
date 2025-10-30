@@ -81,6 +81,7 @@
 
     <script src="{{ asset('assets/js/jquery.nice-select.js') }}"></script>
     <script src="{{ asset('assets/js/materialize.min.js') }}"></script>
+    <script src="{{ asset('assets/js/hoverIntent.js') }}"></script>
     <script src="{{ asset('assets/js/particles.min.js') }}"></script>
     <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
     <script src="{{ asset('assets/js/bootstrapValidator.min.js') }}"></script>
