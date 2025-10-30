@@ -17,7 +17,7 @@
                         If you are looking at blank cassettes on the web, you may be very confused at the difference
                         in price. You may see some for as low as $.17 each.
                     </p>
-                    <a href="#" class="text-uppercase primary-btn">Get Started</a>
+                    <a href="/booking" class="text-uppercase primary-btn">Book Seats</a>
                 </div>
                 <div class="banner-right col-lg-4 col-md-6">
                     <!-- ...existing tab/form content... -->
@@ -42,9 +42,9 @@
                             <form class="form-wrap">
                                 <input type="text" class="form-control" name="name" placeholder="From ">
                                 <input type="text" class="form-control" name="to" placeholder="To ">
-                                <input type="text" class="form-control date-picker" name="start" placeholder="From ">
+                                <input type="date" class="form-control date-picker" name="start" placeholder="Date">
                                 <input type="text" class="form-control date-picker" name="return" placeholder="To ">
-                                <a href="#" class="text-uppercase primary-btn">Search Bus</a>
+                                <a href="/booking" class="text-uppercase primary-btn">Search Bus</a>
                             </form>
                         </div>
                         <!-- hotel / holiday tabs (unchanged) -->
