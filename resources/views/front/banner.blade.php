@@ -5,10 +5,10 @@
         <div class="d-flex align-items-center justify-content-center row">
             <div class="about-content col-lg-12">
                 <h1 class="text-white">
-                    About Us
+                    {{ $title }}
                 </h1>
                 <p class="text-white link-nav"><a href="/">Home </a> <span class="lnr-arrow-right lnr"></span> <a
-                        href="#"> About Us</a></p>
+                        href="#"> {{ $pageName }} </a></p>
             </div>
         </div>
     </div>
