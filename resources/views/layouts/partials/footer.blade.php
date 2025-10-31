@@ -62,14 +62,14 @@
                 <div class="single-footer-widget mail-chimp">
                     <h6 class="mb-20">InstaFeed</h6>
                     <ul class="d-flex flex-wrap instafeed">
-                        <li><img src="{{ asset('img/i1.jpg') }}" alt=""></li>
-                        <li><img src="{{ asset('img/i2.jpg') }}" alt=""></li>
-                        <li><img src="{{ asset('img/i3.jpg') }}" alt=""></li>
-                        <li><img src="{{ asset('img/i4.jpg') }}" alt=""></li>
-                        <li><img src="{{ asset('img/i5.jpg') }}" alt=""></li>
-                        <li><img src="{{ asset('img/i6.jpg') }}" alt=""></li>
-                        <li><img src="{{ asset('img/i7.jpg') }}" alt=""></li>
-                        <li><img src="{{ asset('img/i8.jpg') }}" alt=""></li>
+                        <li><img src="{{ asset('assets/img/i1.jpg') }}" alt=""></li>
+                        <li><img src="{{ asset('assets/img/i2.jpg') }}" alt=""></li>
+                        <li><img src="{{ asset('assets/img/i3.jpg') }}" alt=""></li>
+                        <li><img src="{{ asset('assets/img/i4.jpg') }}" alt=""></li>
+                        <li><img src="{{ asset('assets/img/i5.jpg') }}" alt=""></li>
+                        <li><img src="{{ asset('assets/img/i6.jpg') }}" alt=""></li>
+                        <li><img src="{{ asset('assets/img/i7.jpg') }}" alt=""></li>
+                        <li><img src="{{ asset('assets/img/i8.jpg') }}" alt=""></li>
                     </ul>
                 </div>
             </div>
