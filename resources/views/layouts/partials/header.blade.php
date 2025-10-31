@@ -68,16 +68,16 @@
     <div class="container main-menu">
         <div class="d-flex align-items-center justify-content-between row">
             <div id="logo">
-                <a href="index.html"><img src="{{ asset('assets/img/logo.png') }}" alt="" title="" /></a>
+                <a href="{{ url('/') }}"><img src="{{ asset('assets/img/logo.png') }}" alt="" title="" /></a>
             </div>
             <nav id="nav-menu-container">
                 <ul class="nav-menu">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="packages.html">Packages</a></li>
-                    <li><a href="hotels.html">Hotels</a></li>
-                    <li><a href="insurance.html">Insurence</a></li>
-                    <li class="menu-has-children"><a href="">Blog</a>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Packages</a></li>
+                    <li><a href="#">Hotels</a></li>
+                    <li><a href="#">Insurence</a></li>
+                    <li class="menu-has-children"><a href="#">Blog</a>
                         <ul>
                             <li><a href="blog-home.html">Blog Home</a></li>
                             <li><a href="blog-single.html">Blog Single</a></li>

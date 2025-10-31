@@ -27,17 +27,17 @@
     <link rel="stylesheet" href="{{ asset('assets/css/owl.carousel.css') }}">
 
     <!-- Template CSS - booking -->
-    <link rel="stylesheet" href="{{ asset('assets/css/booking.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/datepicker.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/select2.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/seatCharts.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/animate.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/responsive.css') }}">
+    {{--  booking page css  --}}
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
 
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="{{ asset('assets/css/main.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/main.css') }}"> {{-- main css for whole site --}}
 
     <!-- Vite Assets -->
     @vite(['resources/css/app.css', 'resources/js/app.js'])
@@ -76,15 +76,13 @@
     <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
     <script src="{{ asset('assets/js/jquery-ui.js') }}"></script>
     <script src="{{ asset('assets/js/jquery-ui.min.js') }}"></script>
-    <script src="{{ asset('assets/js/jquery-min.js') }}"></script>
-
+    <script src="{{ asset('assets/js/popper.js') }}"></script>
+    <script src="{{ asset('assets/js/popper.min.js') }}"></script>
 
     <script src="{{ asset('assets/js/jquery.nice-select.js') }}"></script>
     <script src="{{ asset('assets/js/materialize.min.js') }}"></script>
-    <script src="{{ asset('assets/js/hoverIntent.js') }}"></script>
     <script src="{{ asset('assets/js/particles.min.js') }}"></script>
-    <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
-    <script src="{{ asset('assets/js/bootstrapValidator.min.js') }}"></script>
+    <script src="{{ asset('assets/js/bootstrapValidator.js') }}"></script>
     <script src="{{ asset('assets/js/datepicker.js') }}"></script>
     <script src="{{ asset('assets/js/simple-lightbox.min.js') }}"></script>
     <script src="{{ asset('assets/js/seatCharts.min.js') }}"></script>

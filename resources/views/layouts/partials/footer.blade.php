@@ -81,8 +81,8 @@
                 Copyright &copy;
                 <script>
                     document.write(new Date().getFullYear());
-                </script> All rights reserved | This template is made with <i class="fa fa-heart-o"
-                    aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Sangam Pradhan</a>
+                </script> All rights reserved | Made with <i class="fas solid fa-lightbulb"
+                    aria-hidden="true"></i> by <a href="#" target="_blank">Sangam Pradhan</a>
             </p>
             <div class="col-lg-4 col-sm-12 footer-social">
                 <a href="#"><i class="fa fa-facebook"></i></a>
