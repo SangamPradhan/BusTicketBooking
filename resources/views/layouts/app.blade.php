@@ -32,6 +32,10 @@
     <link rel="stylesheet" href="{{ asset('assets/css/seatCharts.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/animate.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/responsive.css') }}">
+    <link rel="stylesheet" href="{{ asset('plugins/lobibox/css/lobibox.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('plugins/material-datetimepicker/bootstrap-material-datetimepicker.css') }}">
+    <link rel="stylesheet" href="{{ asset('fonts/font-awesome/css/font-awesome.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('fonts/material-design-icons/material-icon.css') }}">
     {{--  booking page css  --}}
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
 
@@ -80,12 +84,17 @@
     <script src="{{ asset('assets/js/popper.js') }}"></script>
     <script src="{{ asset('assets/js/popper.min.js') }}"></script>
 
+
+    <script src="{{ asset('plugins/lobibox/js/lobibox.min.js') }}"></script>
+    <script src="{{ asset('plugins/material-datetimepicker/moment-with-locales.min.js') }}"></script>
+    <script src="{{ asset('plugins/material-datetimepicker/bootstrap-material-datetimepicker.js') }}"></script>
+    <script src="{{ asset('plugins/material-datetimepicker/datetimepicker.js') }}"></script>
+
     <script src="{{ asset('assets/js/jquery.nice-select.js') }}"></script>
     <script src="{{ asset('assets/js/materialize.min.js') }}"></script>
     <script src="{{ asset('assets/js/particles.min.js') }}"></script>
     <script src="{{ asset('assets/js/bootstrapValidator.js') }}"></script>
     <script src="{{ asset('assets/js/datepicker.js') }}"></script>
-    <script src="{{ asset('assets/js/bootstrap-material-datetimepicker.js') }}"></script>
     <script src="{{ asset('assets/js/simple-lightbox.min.js') }}"></script>
     <script src="{{ asset('assets/js/seatCharts.min.js') }}"></script>
     <script src="{{ asset('assets/js/booking.js') }}"></script>
