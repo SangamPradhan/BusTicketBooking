@@ -85,6 +85,7 @@
     <script src="{{ asset('assets/js/particles.min.js') }}"></script>
     <script src="{{ asset('assets/js/bootstrapValidator.js') }}"></script>
     <script src="{{ asset('assets/js/datepicker.js') }}"></script>
+    <script src="{{ asset('assets/js/bootstrap-material-datetimepicker.js') }}"></script>
     <script src="{{ asset('assets/js/simple-lightbox.min.js') }}"></script>
     <script src="{{ asset('assets/js/seatCharts.min.js') }}"></script>
     <script src="{{ asset('assets/js/booking.js') }}"></script>
