@@ -1,10 +1,10 @@
 /******************************************************************
-Theme Name: Travel 
-Description: 
+Theme Name: Travel
+Description:
 Author: Colorlib
-Author URI: 
+Author URI:
 Version: 1.0
-Created: 
+Created:
 ******************************************************************/
 /*------------------------------------------------------------------
 
@@ -19,7 +19,7 @@ Created:
 	1.3	Flexbox
 	1.4	Reset
 2.  Elements
-3.  Menu Style 
+3.  Menu Style
 4.  Home Page Style
 5.  About Page Style
 6.  Department Page Style
@@ -46,7 +46,7 @@ $black			: #222;
 
 */
 /* =================================== */
-/*  Basic Style 
+/*  Basic Style
 /* =================================== */
 ::-moz-selection {
   /* Code for Firefox */
@@ -4493,4 +4493,33 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .footer-text a, .footer-text i {
   color: #f8b600;
+}
+
+/* Scroll to top button styles */
+.scroll-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 99;
+    display: none; /* Hidden by default */
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background: #f8b600;
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.scroll-top:hover {
+    background: #e5a700;
+    transform: translateY(-3px);
+}
+
+.scroll-top i {
+    font-size: 24px;
+    line-height: 40px;
 }

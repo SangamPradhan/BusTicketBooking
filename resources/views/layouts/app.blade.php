@@ -61,6 +61,7 @@
     <script src="{{ asset('assets/js/vendor/popper.min.js') }}"></script>
     <script src="{{ asset('assets/js/vendor/bootstrap.min.js') }}"></script>
 
+
     <!-- Maps -->
     <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
 
