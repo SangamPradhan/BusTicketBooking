@@ -28,6 +28,10 @@
 
 
     <main class="col-md-12">
+
+    <x-banner title="About Us" pageName="About Us" />
+
+
         <div class="mx-auto col-md-11 col-lg-9 col-xl-8 window">
             <section class="stepper">
                 <!-- progressbar -->

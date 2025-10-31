@@ -226,4 +226,65 @@ section p {
     max-width: 100%;
 }
 
+/* ----------------------------
+   Banner / full-bleed overrides
+   Ensure this runs after template CSS (we add it to app.css -> loaded by Vite last)
+   ---------------------------- */
+
+.banner-area {
+  /* use absolute-from-webroot path so URL resolves regardless of css file location */
+  background-image: url('/assets/img/banner.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;            /* create stacking context for overlay */
+  padding-top: 120px;            /* keep template spacing */
+  padding-bottom: 120px;         /* avoid footer overlap */
+  z-index: 0;
+}
+
+/* overlay sits above the background but below content */
+.banner-area .overlay-bg {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(4, 9, 30, 0.4); /* darken to match template */
+  z-index: 1;
+}
+
+/* ensure content inside banner sits above overlay */
+.banner-area > .container,
+.banner-area .container .row,
+.banner-area .fullscreen {
+  position: relative;
+  z-index: 2;
+}
+
+/* small responsive tweak so banner visible on small screens */
+@media (max-width: 767.98px) {
+  .banner-area {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-attachment: scroll; /* avoid fixed on mobile */
+  }
+}
+
+/* Prevent footer collision: ensure page main/content reserves space */
+main, .site-main, .content {
+  /* adjust if your layout uses different wrapper class */
+  padding-bottom: 160px; /* create safe-bottom space for footer (tune if needed) */
+}
+
+/* Make footer sit above background if any absolute elements leak */
+.footer-area {
+  position: relative;
+  clear: both;
+  z-index: 5;
+}
+
+/* Force image fallback in case CPU cached old CSS: higher specificity */
+body .banner-area { background-image: url('/assets/img/banner.jpg') !important; }
+
 
