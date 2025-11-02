@@ -35,14 +35,15 @@ h4, h5, h6 {
     font-weight: normal;
 }
 
-h1 { font-size: 28px;}
-h2 { font-size: 24px;}
-h3 { font-size: 18px;}
-h5 { font-size: 16px;}
-h6 { font-size: 14px;}
+h1 { font-size: 60px; }
+h2 { font-size: 30px; }
+h3 { font-size: 24px; }
+h4 { font-size: 18px; }
+h5 { font-size: 16px; }
+h6 { font-size: 14px; }
 
 strong {
-  letter-s;;Dacing: 1px;
+  letter-spacing: 1px;
 }
 
 code {
@@ -284,7 +285,6 @@ main, .site-main, .content {
   z-index: 5;
 }
 
-/* Force image fallback in case CPU cached old CSS: higher specificity */
-body .banner-area { background-image: url('/assets/img/banner.jpg') !important; }
+
 
 
